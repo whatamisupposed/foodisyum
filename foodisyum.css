@@ -42,9 +42,7 @@ body {
   height: 1px;
   margin: 0 auto;
 }
-flexbox {
-  flex-wrap: wrap;
-}
+
 .suffering {
     color: #ffffff;
     font-size: 25px;
