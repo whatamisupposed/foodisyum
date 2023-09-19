@@ -5,11 +5,19 @@ body {
     font-size: 100%;
   background-size: cover;
     background-color: gray;
-    background-image: url("img/bread.jpg");
-    background-image: url("img/pineapple.jpg");
-    background-image: url("img/pasta.jpg");
+
     background-image: url("img/chopchop.jpg");
  color: rgb(255, 255, 255);
+}
+.card1 {
+  background-image: url("img/bread.jpg");
+}
+.card2 {
+  background-image: url("img/pineapple.jpg");
+}
+.card3 {
+  background-image: url("img/pasta.jpg");
+  
 }
 flexbox {
   flex-wrap: wrap;
