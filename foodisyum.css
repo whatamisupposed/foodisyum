@@ -3,38 +3,41 @@ body {
     padding: 0;
     font-family: 'Teluga', noto-serif;
     font-size: 100%;
-  background-size: cover;
+  background-size: 100%;
     background-color: gray;
 
 
-    background-image: url("img/bread.jpg");
-    background-image: url("img/pineapple.jpg");
-    background-image: url("img/pasta.jpg");
+
     background-image: url("img/chopchop.jpg");
  color: rgb(255, 255, 255);
 }
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
 
+}
+.okthen {
+  text-align: center;
+}
 .card1 {
-  margin-top: 1000px;
+  margin-top: 400px;
  height: 400 px;
  width: 100%;
  background-color: rgb(0, 0, 0);
  display: flex;
- flex-wrap: wrap;
+flex-direction: row;
 }
 .card2 {
   height: 400 px;
   width: 100%;
   background-color: rgb(29, 29, 29);
-  display: flex;
-  flex-wrap: wrap;
+
 }
 .card3 {
   height: 400 px;
  width: 100%;
  background-color: rgb(56, 56, 56);
- display: flex;
- flex-wrap: wrap;
+
 }
 .line {
   width: 30%;
