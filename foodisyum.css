@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Teluga', noto-serif;
+    font-size: 100%;
+  
+    background-image: url("chopchop.jpg");
+    background-image: url("bread.jpg");
+    background-image: url("pineapple.jpg");
+    background-image: url("pasta.jpg");
+    background-color: white;
+ color: rgb(255, 255, 255);
+}
+flexbox {
+   
+}
+.suffering {
+    color: #ffffff;
+    font-size: 25px;
+     font-family: 'Teluga', noto-serif;
+     float: left;
+  }  
+  #nav {
+    background-color: #000d0e;
+    padding: 11px;
+    text-align: right;
+     font-family: 'Teluga', noto-serif;
+  }
+  #nav a {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 8px;
+  }
+  #h1 {
+color: #ffffff;
+font-size: 50px;
+padding: 8px;
+  }
+  #h2 {
+    color: #ffffff;
+    font-size: 50px;
+    padding: 8px;
+      }
+      
