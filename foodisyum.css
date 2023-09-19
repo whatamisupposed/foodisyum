@@ -10,14 +10,23 @@ body {
  color: rgb(255, 255, 255);
 }
 .card1 {
-  background-image: url("img/bread.jpg");
+ height: 500 px;
+ width: 100%;
 }
 .card2 {
-  background-image: url("img/pineapple.jpg");
+  height: 500 px;
+  width: 100%;
 }
 .card3 {
-  background-image: url("img/pasta.jpg");
-  
+  height: 500 px;
+ width: 100%;
+
+}
+.line {
+  width: 30%;
+  background-color: #ffffff;
+  height: 1px;
+  margin: 0 auto;
 }
 flexbox {
   flex-wrap: wrap;
