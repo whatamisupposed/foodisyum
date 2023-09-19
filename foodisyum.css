@@ -13,25 +13,28 @@ body {
     background-image: url("img/chopchop.jpg");
  color: rgb(255, 255, 255);
 }
-p {
-  float: right;
-}
+
 .card1 {
   margin-top: 1000px;
  height: 400 px;
  width: 100%;
  background-color: rgb(0, 0, 0);
- 
+ display: flex;
+ flex-wrap: wrap;
 }
 .card2 {
   height: 400 px;
   width: 100%;
   background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
 }
 .card3 {
   height: 400 px;
  width: 100%;
  background-color: rgb(0, 0, 0);
+ display: flex;
+ flex-wrap: wrap;
 }
 .line {
   width: 30%;
