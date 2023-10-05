@@ -6,6 +6,7 @@
     border-radius: 3px;
     margin: 10px;
     float: left;
+    width: 130px;
   }
   
   #clickMe:hover {
@@ -18,9 +19,7 @@
   }
   .inStock, .notInStock {
     display: inline-block;
-    padding: 10px;
-    display: flex;
-    align-items: center;
+
     font-family: Helvetica;
     border-radius: 3px;
     background-color: white;
@@ -32,27 +31,34 @@
   h1 {
     font-size: 50px;
     position: left;
+
   }
   .darkMode {
     background-color: #034;
     color: white;
     border: 1px;
- float:left;
+
   }
 body {
     background-color: rgb(223, 223, 223);
     justify-content: space-between;
+    padding: 5%;
 }
 #contentContainer {
     display: flex; 
-    align-items: center;
+   
     justify-content: space-between; 
     flex-direction: column;
-    width: 100%;
-    border: #034;
+    border: 1px;
+    border-color: rgb(2, 46, 61);
   }
   .darkMode .inStock,
 .darkMode .notInStock {
   background-color: gray;
   color: white; 
+}
+hr {
+    width: 10%;
+    height: 2px;
+float: left; 
 }
