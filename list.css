@@ -1,31 +1,39 @@
 #clickMe {
     background-color: white;
-    color: black;
+    color: rgb(255, 255, 255);
     padding:10px;
     font-family: Helvetica;
-    border-radius: 3px;
+
     margin: 10px;
     float: left;
     width: 130px;
+   border: none; 
+    border-top: 2px solid gray; 
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    background: none;
+    transition: background-color 350s;
   }
-  
+  #clickMe:active {
+    color: white; 
+  }
   #clickMe:hover {
     cursor: pointer;
   }
-  .appendToMe {
-    display: flex;
-    align-content: space-between;
-    border: 1px;
-  }
+
   .inStock, .notInStock {
     display: inline-block;
-
+padding: 3px;
     font-family: Helvetica;
     border-radius: 3px;
     background-color: white;
     align-content: space-between;
     width: 100%; 
-    border: 1px;
+    border-top: 2px solid gray; 
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
     margin: 10px 0;
   }
   h1 {
@@ -34,9 +42,9 @@
 
   }
   .darkMode {
-    background-color: #034;
+    background-color: rgb(36, 36, 36);
     color: white;
-    border: 1px;
+
 
   }
 body {
@@ -49,16 +57,19 @@ body {
    
     justify-content: space-between; 
     flex-direction: column;
-    border: 1px;
-    border-color: rgb(2, 46, 61);
+
   }
   .darkMode .inStock,
 .darkMode .notInStock {
-  background-color: gray;
+  background-color: rgb(94, 83, 83);
   color: white; 
+  border-top: 2px solid gray; 
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
 }
 hr {
     width: 10%;
     height: 2px;
-float: left; 
+float: left;
 }
