@@ -1,0 +1,58 @@
+#clickMe {
+    background-color: white;
+    color: black;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    margin: 10px;
+    float: left;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  .appendToMe {
+    display: flex;
+    align-content: space-between;
+    border: 1px;
+  }
+  .inStock, .notInStock {
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica;
+    border-radius: 3px;
+    background-color: white;
+    align-content: space-between;
+    width: 100%; 
+    border: 1px;
+    margin: 10px 0;
+  }
+  h1 {
+    font-size: 50px;
+    position: left;
+  }
+  .darkMode {
+    background-color: #034;
+    color: white;
+    border: 1px;
+ float:left;
+  }
+body {
+    background-color: rgb(223, 223, 223);
+    justify-content: space-between;
+}
+#contentContainer {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: column;
+    width: 100%;
+    border: #034;
+  }
+  .darkMode .inStock,
+.darkMode .notInStock {
+  background-color: gray;
+  color: white; 
+}
