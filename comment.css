@@ -1,20 +1,49 @@
+body {
+    padding: 10px;
+    background-color: white;
+}
 .original-post {
     position: fixed;
 }
 .comment {
     display: flex;
     margin: 10px;
+    font-size: large;
+    flex: 1;
 }
-
-
+#comments-container {
+    width: 100%;
+    margin-top: 250px;
+}
+.comment {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7; 
+    padding: 10px; 
+    flex: 1;
+}
+.avatar {
+    width: 50px; 
+    height: 50px;
+    margin-right: 10px;
+}
+.display-name {
+    font-weight: bold;
+}
+.fixed-heading {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    padding: 20px; 
+    font-size: 45px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1; 
+}
 
 h1 {
     font-size: large;
-    color: black;
-}
-h2 {
-    font-size: 30px;
-    color: black;
+
 }
 .comment-avatar {
     margin-right: 10px;
@@ -25,10 +54,27 @@ h2 {
     height: 7px; 
     border-radius: 50%; 
 }
-.card {
-    width: 100%;
-    border-top: 2px solid gray; 
-    border-bottom: 2px solid gray;
-    border-left: 2px solid gray;
-    border-right: 2px solid gray;
+.comment-buttons {
+  
+    flex-direction: column;
+    align-items: right;
+    flex-direction: row-reverse;
+    display: flex;
+    right: 0;
+}
+
+.comment-content, .create-comment {
+    flex: 1;
+}
+
+.comment-buttons, .comment-edit, .create-comment {
+    display: flex;
+}
+
+.comment-buttons button, .comment-edit, .create-comment {
+    margin-left: 10px; 
+}
+.comment-buttons, .comment-edit, .create-comment {
+    display: flex;
+    right: 0;
 }

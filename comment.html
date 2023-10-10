@@ -7,28 +7,91 @@
     <link href="comment.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="original-post">
-        <h1>
-            WhySoSerious45
-        </h1>
-        <h2>
-            <div class ="card">
-            Trying to decide a career path? Programming is the move. Change my mind.
+    <body>
+        <div class="fixed-heading">
+            <h1>WhySoSerious88</h1>
+            <p>Trying to decide a career path? Programming is the move. Change my mind.</p>
         </div>
-        </h2>
-    </div>
-    <div class="comment-section">
-        <div class ="card"></div>
-        <div class="comment-form">
-        </div>
-        <div class="comment">
-            <div class="comment-avatar">
-             
-                <img src="user-avatar.png" alt="User Avatar">
+  
+                 <div id="comments-container">
+                <div class="comment">
+                    <img class="avatar" src="anonymous.png" alt="User 1 Avatar">
+                    <div class="comment-content">
+                        <span class="display-name">adsf</span>
+                        <p class="comment-text">emoji</p>
+                    </div>
+                    <div class="comment-buttons">
+                        <button class="edit-comment">Edit</button>
+                        <button class="delete-comment">Delete</button>
+                    </div>
+                    <div class="comment-edit">
+                        <input type="text" class="edit-display-name" style="display: none;">
+                        <textarea class="edit-comment-text" style="display: none;"></textarea>
+                        <button class="save-edit" style="display: none;">Submit</button>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img class="avatar" src="anonymous.png" alt="User 2 Avatar">
+                    <div class="comment-content">
+                        <span class="display-name">EnoughSaid</span>
+                        <p class="comment-text">Preach!</p>
+                   
+                    </div>
+                    <div class="comment-buttons">
+                        <button class="edit-comment">Edit</button>
+                        <button class="delete-comment">Delete</button>
+                         </div>
+                        <div class="comment-edit">
+                            <input type="text" class="edit-display-name" style="display: none;">
+                            <textarea class="edit-comment-text" style="display: none;"></textarea>
+                            <button class="save-edit" style="display: none;">Submit</button>
+                       
+                    </div>
+                </div>
+                <div class="comment">
+                    <img class="avatar" src="anonymous.png" alt="User 3 Avatar">
+                    <div class="comment-content">
+                        <span class="display-name">Guest124</span>
+                        <p class="comment-text">Why would I change your mind? It's the fastest growing industry out there...</p>
+                    </div>
+                    <div class="comment-buttons">
+                        <button class="edit-comment">Edit</button>
+                        <button class="delete-comment">Delete</button>
+                    </div>
+                    <div class="comment-edit">
+                        <input type="text" class="edit-display-name" style="display: none;">
+                        <textarea class="edit-comment-text" style="display: none;"></textarea>
+                        <button class="save-edit" style="display: none;">Submit</button>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img class="avatar" src="anonymous.png" alt="User 4 Avatar">
+                    <div class="comment-content">
+                        <span class="display-name">TheMan</span>
+                        <p class="comment-text">Hard to argue with that.</p>
+                    </div>
+                    <div class="comment-buttons">
+                        <button class="edit-comment">Edit</button>
+                        <button class="delete-comment">Delete</button>
+                    </div>
+                    <div class="comment-edit">
+                        <input type="text" class="edit-display-name" style="display: none;">
+                        <textarea class="edit-comment-text" style="display: none;"></textarea>
+                        <button class="save-edit" style="display: none;">Submit</button>
+                    </div>
+                </div>
             </div>
-    </div>
+        
+        <div id="create-comment">
+            <input type="text" id="display-name" placeholder="Your Display Name">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</body>
-<script src="comment.js"></script>
+            <textarea id="comment-text" placeholder="Write a comment..."></textarea>
+
+            <button id="post-comment">Submit</button>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="comment.js"></script>
+    </body>
+
 </html>
