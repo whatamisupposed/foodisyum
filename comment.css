@@ -13,6 +13,10 @@ body {
     font-size: large;
     flex: 1;
 }
+.comment-text {
+    font-size: 30px;
+    width: 500px;
+}
 #comments-container {
     width: 95%;
     margin-top: 250px;
@@ -69,7 +73,7 @@ h1 {
 }
 
 .comment-content, .create-comment {
-    
+
     flex: 1;
 }
 
@@ -84,6 +88,7 @@ h1 {
     color: blue;
     border: none;
 }
+
 
 .create-comment-container {
     background-color: #f7f7f7;
@@ -115,6 +120,14 @@ h1 {
     display: flex;
   
 }
-.edit-comment-text textarea {
-    width: 1000px;
+.edit-comment-text {
+    width: 830px;
+  
 }
+.post-comment {    
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
