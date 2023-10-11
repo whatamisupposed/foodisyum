@@ -4,6 +4,8 @@ body {
 }
 .original-post {
     position: fixed;
+    display: flex;
+    flex: 1;
 }
 .comment {
     display: flex;
@@ -12,8 +14,9 @@ body {
     flex: 1;
 }
 #comments-container {
-    width: 100%;
+    width: 95%;
     margin-top: 250px;
+ margin-left: 10px;
 }
 .comment {
     display: flex;
@@ -37,7 +40,7 @@ body {
     font-size: 45px;
     position: fixed; 
     top: 0; 
-    width: 100%; 
+    width: 90%; 
     z-index: 1; 
 }
 
@@ -55,26 +58,63 @@ h1 {
     border-radius: 50%; 
 }
 .comment-buttons {
-  
+    color: blue;
     flex-direction: column;
     align-items: right;
     flex-direction: row-reverse;
     display: flex;
     right: 0;
+
+    border: none;
 }
 
 .comment-content, .create-comment {
+    
     flex: 1;
 }
 
 .comment-buttons, .comment-edit, .create-comment {
     display: flex;
+    color: blue;
+    border: none;
 }
 
 .comment-buttons button, .comment-edit, .create-comment {
     margin-left: 10px; 
+    color: blue;
+    border: none;
 }
-.comment-buttons, .comment-edit, .create-comment {
+
+.create-comment-container {
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+.create-comment-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.create-comment-container button {
+    flex-direction: column;
+    flex: 1;
+   
+    color: blue;
+    border: none;
+}
+
+.create-comment-container textarea {
+    width: 75%;
+    margin-bottom: -11px;
+}
+
+.save-edit {
+    color: blue;
+    border: none;
     display: flex;
-    right: 0;
+  
+}
+.edit-comment-text textarea {
+    width: 1000px;
 }
